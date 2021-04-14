@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ChineseLib/pinyin.txt</file>
+        <file>ChineseLib/pinyin_phrase.txt</file>
+        <file>Image/backspace.png</file>
+        <file>Image/enter.png</file>
+        <file>Image/space.png</file>
+        <file>Image/caplock.png</file>
+        <file>Image/seting.png</file>
+        <file>Image/windowIcon.jpg</file>
+        <file>Image/hide.png</file>
+        <file>Image/close.png</file>
+    </qresource>
+</RCC>

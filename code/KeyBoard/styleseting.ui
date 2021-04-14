@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StyleSeting</class>
+ <widget class="QWidget" name="StyleSeting">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>200</width>
+    <height>200</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>140</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background: #003300; border-radius: 5px; margin: 5px;font-size: 20px; color: white;}
+QPushButton:hover{background: #C0C0C0;}
+QPushButton:pressed{background: #808080;}</string>
+   </property>
+   <property name="text">
+    <string>背景颜色</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>140</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background: #003300; border-radius: 5px; margin: 5px;font-size: 20px; color: white;}
+QPushButton:hover{background: #C0C0C0;}
+QPushButton:pressed{background: #808080;}</string>
+   </property>
+   <property name="text">
+    <string>按钮颜色</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>130</y>
+     <width>140</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background: #003300; border-radius: 5px; margin: 5px;font-size: 20px; color: white;}
+QPushButton:hover{background: #C0C0C0;}
+QPushButton:pressed{background: #808080;}</string>
+   </property>
+   <property name="text">
+    <string>背景图片</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>140</y>
+     <width>20</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>156</x>
+     <y>5</y>
+     <width>41</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background: #003300; border-radius: 5px; margin: 5px;font-size: 20px; color: white;}
+QPushButton:hover{background: #C0C0C0;}
+QPushButton:pressed{background: #808080;}</string>
+   </property>
+   <property name="text">
+    <string>X</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
